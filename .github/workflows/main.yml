@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  NDK_VERSION: r27c  # ✅ 改动1：升级到 r27c，原生支持 API 35
+  NDK_VERSION: r27d  # 从 r27c 改为 r27d
   NDK_URL: https://dl.google.com/android/repository/android-ndk-${NDK_VERSION}-linux.zip
 
 jobs:
